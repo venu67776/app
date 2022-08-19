@@ -1,6 +1,6 @@
 package policy["com.styra.kubernetes.mutating"].rules.rules
 
-not_configured[decision] {
+monitor[decision] {
   parameters := {
     "cpu_limit": ""
   }
