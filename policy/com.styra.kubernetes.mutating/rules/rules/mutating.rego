@@ -9,6 +9,7 @@ not_configured[decision] {
     with data.library.parameters as parameters
 }
 
+
 ignore[decision] {
   data.library.v1.kubernetes.mutating.v1.set_image_pull_policy_always_if_latest[decision]
 }
